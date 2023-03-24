@@ -1,0 +1,20 @@
+.button {
+    background-color: #fdfdfd;
+    border-width: 2px;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .buttonigual {
+    background-color: #fdfdfd; 
+    border-width: 2px;
+    color: rgb(0, 0, 0);
+    padding: 15px 109px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

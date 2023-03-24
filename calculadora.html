@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+
+<body>
+    <header>CALCULADORA</header>
+    <br>
+    <br>
+    <button class="button" value="/" id="dividir" onclick="botones(this)">/</button>
+    <button class="button" value="²" id="raiz" onclick="botones(this)">²</button>
+    <button class="button" value="1/x" id="invertir" onclick="botones(this)">1/x</button>
+    <button class="button" value="C" id="delete" onclick="botones(this)">C</button>
+    <br>
+    <button class="button" value="7" id="boton7" onclick="botones(this)">7</button>
+    <button class="button" value="8" id="boton8" onclick="botones(this)">8</button>
+    <button class="button" value="9" id="boton9" onclick="botones(this)">9</button>
+    <button class="button" value="*" id="multiplicar" onclick="botones(this)">*</button>
+    <br>
+    <button class="button" value="4" id="boton4" onclick="botones(this)">4</button>
+    <button class="button" value="5" id="boton5" onclick="botones(this)">5</button>
+    <button class="button" value="6" id="boton6" onclick="botones(this)">6</button>
+    <button class="button" value="-" id="restar" onclick="botones(this)">-</button>
+    <br>
+    <button class="button" value="1" id="boton1" onclick="botones(this)">1</button>
+    <button class="button" value="2" id="boton2" onclick="botones(this)">2</button>
+    <button class="button" value="3" id="boton3" onclick="botones(this)">3</button>
+    <button class="button" value="+" id="sumar" onclick="botones(this)">+</button>
+    <br>
+    
+    <button class="button" value="0" id="boton0" onclick="botones(this)">0</button>
+    <button class="buttonigual" value="=" id="resultado"  onclick="botones(this)">=</button>
+    <br>
+    
+    
+    
+
+    <p class="enPantalla1" id="acumuladoEnPantalla1"></p>
+    <p class="enPantalla1" id="operadorEnPantalla"></p>
+    <p class="enPantalla1" id="acumuladoEnPantalla2"></p>
+    <p class="enPantalla1" id="acumuladoPostResultado"></p>
+    <!-- <p class="enPantalla1" id="resultadoEnPantalla"></p> -->
+    
+    <input id="resultadoEnPantalla" type="text">
+    
+    
+    <script src="calculadora.js"></script>
+</body>
+</html>
